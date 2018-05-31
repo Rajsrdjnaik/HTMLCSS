@@ -1,1 +1,1 @@
-Assignment 1 suubumitted
+Assignment 1 submitted
