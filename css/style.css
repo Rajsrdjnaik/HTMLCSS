@@ -1,0 +1,188 @@
+/*header image*/
+header img{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.container_12{
+
+	margin-top: 100px;
+}
+/*Heading style*/
+h1{
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 85px;
+	margin-bottom: 0;
+	font-family: sans-serif;
+	text-shadow: 2px 1px 5px #292929;
+	letter-spacing: -5px;
+	font-variant: small-caps;
+}
+/*Search Bar*/
+header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -1px;
+    margin-right: 0px;
+    font-size: 15px;
+}
+/*navigation bar*/
+nav ul li{
+	display: inline;
+	margin-top: 40px;
+	margin-right: 15px;
+	float: right;
+	font-family: fantasy;
+	font-size: 20px;
+	position: relative;
+}
+/*navigation bar elemenrs*/
+nav ul li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: red;
+	font-size: 150%;
+	text-decoration: underline;
+}
+/*Header style*/
+header {
+	border-top: 10px solid brown;
+	border-bottom: 10px solid brown;
+	background: black;
+	margin-bottom: 0;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+input{
+	overflow: hidden;
+}
+/*3 Column content*/
+.primary{
+	border: 10px solid red;
+	border-radius: 20px;
+}
+/*to make them remain undistorted after applying padding*/
+section {
+	box-sizing: border-box;
+	padding: 15px;
+}
+/*3 Column Images*/
+.primary img{
+	width: 250px;
+	height: 250px;
+}
+/*Heading of Hero column */
+h2 {
+	margin-top: 15px;
+	font-size: 40px;
+	text-align: center;
+	font-family: monospace;
+	color: green;
+	padding: 20px;
+}
+/*Hero column image*/
+.secondary img{
+	box-shadow: 10px 10px 10px #292929;
+	border-radius: 20px;
+	width: 960px;
+	height: 540px;
+}
+/*2 column with 3 rows heading*/
+h3 {
+	font-size: 40px;
+	padding-top: 40px;
+	font-family: "Merienda", sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	color: blue
+
+}
+/*footer creator credits*/
+h5{
+	font-size: 20px;
+	margin-top: 10px;
+	color: white;
+	margin-left: 20px;
+}
+/*footer creator credits link style*/
+h5 a {
+	color: white;
+	font-size: 15px;
+}
+/*footer images*/
+a img{
+	width: 50px;
+	height: 50px;
+}
+/*footer style*/
+footer{
+	margin-bottom: 10px;	
+	background: black;
+	height: 150px;
+	border-top: 10px solid red;
+	border-bottom: 10px solid red;
+	border-radius: 20px;
+}
+/*3 columns heading*/
+h4{
+	text-align: center;
+	font-size: 25px;
+}
+/*3 column heading link style*/
+h4 a{
+	color: red;
+}
+/*to create hover effects*/
+h4 a:hover{
+	color: black;
+	font-size: 150%;
+}
+/*to fix the header while scrolling*/
+header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.primary{
+        width: 80%;
+        margin: 0 auto; 
+}
+
+body{        
+        padding-top: 120px;
+ }
+
+ /*Footer list*/
+footer ul li{
+	float: left;
+	padding-right: 10px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: white
+}
+/*footer image link list*/
+aside ul li{
+	display: inline;
+	margin-top: 0;
+	margin-right: 50px;
+	float: right;
+	padding: 0;
+	margin-left: 0;
+}
