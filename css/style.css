@@ -74,7 +74,7 @@ input{
 	border-radius: 20px;
 }
 /*to make them remain undistorted after applying padding*/
-section {
+article {
 	box-sizing: border-box;
 	padding: 15px;
 }
