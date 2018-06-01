@@ -31,6 +31,7 @@ header input[type=text] {
     margin-top: -1px;
     margin-right: 0px;
     font-size: 15px;
+    border-radius: 5px;
 }
 /*navigation bar*/
 nav ul li{
@@ -186,3 +187,4 @@ aside ul li{
 	padding: 0;
 	margin-left: 0;
 }
+	
